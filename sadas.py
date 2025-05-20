@@ -1270,7 +1270,7 @@ elif selected == "Clinical Report Generator":
     
     col1, col2 = st.columns(2)
     with col1:
-        st.subheader("Clinical Note")
+        st.subheader("Clinical  Note")
         
         user_input = st.text_area("Enter clinical note (Patient Data Entry):", "Discharge note: Patient is a 65-year-old male admitted for community-acquired pneumonia. Treated with IV antibiotics, now stable. BP 120/80, O2 sat 97% on room air. Continue Amoxicillin 500mg TID for 7 days. Follow up with PCP in 1 week.", height=150)
         
